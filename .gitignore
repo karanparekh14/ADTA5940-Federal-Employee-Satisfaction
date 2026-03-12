@@ -1,0 +1,8 @@
+# Ignore large data files and reference materials
+FEVS_2024_PRDF.csv
+*.pdf
+*.xlsx
+reference/
+__pycache__/
+*.pyc
+.env
