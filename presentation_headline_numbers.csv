@@ -1,0 +1,2 @@
+n_observations,n_analytic_rq2,rq2_M4_R2,rq2_M1_R2,rq1_best_model,rq1_best_R2,attrition_leave_rate,attrition_rf_auc,attrition_lr_auc
+674207,519284,0.5965745997611203,0.019811767099232935,Gradient Boosting,0.6034705367598133,0.328403819390753,0.7669126626338165,0.759294961877298

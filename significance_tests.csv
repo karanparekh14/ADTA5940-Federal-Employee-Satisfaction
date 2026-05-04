@@ -1,0 +1,11 @@
+Model A,Model B,Mean R² A,Mean R² B,Diff,t-stat,p-value,Significant (α=0.05)
+XGBoost,LightGBM,0.5241,0.5243,-0.0002,-0.075,0.9439,No
+XGBoost,Gradient Boosting,0.5241,0.5239,0.0002,0.043,0.9681,No
+XGBoost,Extra Trees,0.5241,0.523,0.0011,0.169,0.8738,No
+XGBoost,Random Forest,0.5241,0.5142,0.0099,3.427,0.0266,Yes
+LightGBM,Gradient Boosting,0.5243,0.5239,0.0004,0.063,0.9529,No
+LightGBM,Extra Trees,0.5243,0.523,0.0013,0.237,0.8245,No
+LightGBM,Random Forest,0.5243,0.5142,0.0101,2.33,0.0802,No
+Gradient Boosting,Extra Trees,0.5239,0.523,0.0009,0.094,0.9293,No
+Gradient Boosting,Random Forest,0.5239,0.5142,0.0097,1.912,0.1285,No
+Extra Trees,Random Forest,0.523,0.5142,0.0088,1.493,0.2096,No

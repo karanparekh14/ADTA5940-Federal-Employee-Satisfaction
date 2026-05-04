@@ -1,0 +1,20 @@
+Hey Chau — quick update on the Module 5 deck. Long version is in `Brief_For_Chau.md` (in the repo) but here's the short version:
+
+📊 The deck is done — 18 slides total. 13 main (~15 min) + 5 Q&A backup. PPT file is `Module5_Final_Presentation_Parekh_Lee.pptx`.
+
+Why I didn't just present from your notebook directly:
+1. Your notebook predicts ATTRITION but our submitted Module 4 doc was about JOB SATISFACTION. Pivoting the whole story in 5 days felt risky since the prof has the doc.
+2. Your notebook had 3 bugs that prevented it from running end-to-end (Spark code with the wrong path, DLEAVING_BIN used before it was created, and one cell calling df.plot() on the full 674k×96 frame which froze the kernel). Plus a label bug on cell 16 — x-axis said "1=Very Satisfied" but FEVS Q71 actually goes the opposite direction.
+
+What I did:
+✅ Cleaned your notebook (`Attrition_Pipeline_Cleaned.ipynb`) — runs top to bottom in 3 min. Didn't delete any of your analysis, just fixed bugs.
+✅ Made your attrition work the BONUS section of the deck — Slides 10-11 + all 5 backup slides use YOUR charts (cells 14, 16, 22, 25, 27, 33, 34). 8 of the 18 slide charts come directly from your notebook.
+✅ Built the rest of the deck around the satisfaction story we already submitted (Simpson's Paradox on telework, 60% R², engagement is 7× the next thing).
+
+ONE thing for you to do (5 sec): open the notebook, click cell 16, hit Shift+Enter to re-run it, then Ctrl+S. I patched the source but the saved chart output is stale.
+
+Speaker split I drafted has you on Slides 4-5, 8-9, and 10-11 (your bonus). Open to swapping anything.
+
+Open the PPT, look it over, tell me what to change. We have 5 days.
+
+— K
